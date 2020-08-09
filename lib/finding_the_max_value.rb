@@ -1,3 +1,6 @@
 def find_max_value(array)
-  # Add your solution here
+  array.sort
+end
+  if array[-1] >= array[-2]
+  array.last
 end
