@@ -1,5 +1,4 @@
 def find_max_value(array)
-  array.sort
-  if array[-1] >= array[-2]
+  if array.sort[-1] >= array.sort[-2]
   array.last
 end
